@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "rootDir": "./",
+    "downlevelIteration": true
+  },
+  "exclude": ["node_modules", "dist", "tests"]
+}
